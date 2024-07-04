@@ -3,8 +3,6 @@
 #include <M5Core2.h>
 
 
-hw_timer_t * timer = NULL;
-
 Madgwick MadgwickFilter;
 
 int count_e = 0,f_m = 0;
